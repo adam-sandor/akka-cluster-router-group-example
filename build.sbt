@@ -9,6 +9,7 @@ libraryDependencies ++= {
   val akkaVersion = "2.5.6"
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
-    "com.typesafe.akka" %% "akka-cluster-tools" % akkaVersion
+    "com.typesafe.akka" %% "akka-cluster-tools" % akkaVersion,
+    "io.kubernete" %% "client-java" %
   )
 }
